@@ -439,6 +439,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aws-sdk/client-eks@npm:^3.350.0":
+  version: 3.1152.0
+  resolution: "@aws-sdk/client-eks@npm:3.1152.0"
+  dependencies:
+    "@aws-sdk/core": "npm:^3.978.3"
+    "@aws-sdk/credential-provider-node": "npm:^3.972.86"
+    "@aws-sdk/types": "npm:^3.974.6"
+    "@smithy/core": "npm:^3.35.2"
+    "@smithy/fetch-http-handler": "npm:^5.8.0"
+    "@smithy/node-http-handler": "npm:^4.12.1"
+    "@smithy/types": "npm:^4.19.0"
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/b2cfd4915203c5662659c4e3082a9f17be94b07684231bd3a8c3ac7be4fd2899900ead4e06803a3d13b6411ab3f2c272a7b43581fda09a177e1e10df690d3842
+  languageName: node
+  linkType: hard
+
+"@aws-sdk/client-organizations@npm:^3.350.0":
+  version: 3.1152.0
+  resolution: "@aws-sdk/client-organizations@npm:3.1152.0"
+  dependencies:
+    "@aws-sdk/core": "npm:^3.978.3"
+    "@aws-sdk/credential-provider-node": "npm:^3.972.86"
+    "@aws-sdk/types": "npm:^3.974.6"
+    "@smithy/core": "npm:^3.35.2"
+    "@smithy/fetch-http-handler": "npm:^5.8.0"
+    "@smithy/node-http-handler": "npm:^4.12.1"
+    "@smithy/types": "npm:^4.19.0"
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/81d636507ccab491457b1efc45d7e3974edb096783365faed59342c8ba8469edc9060a36aeba73660c0880c055d3d946f01263044b1d1abd787be6ed1e723468
+  languageName: node
+  linkType: hard
+
 "@aws-sdk/client-s3@npm:^3.350.0":
   version: 3.1152.0
   resolution: "@aws-sdk/client-s3@npm:3.1152.0"
@@ -668,6 +700,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aws-sdk/middleware-endpoint@npm:^3.347.0":
+  version: 3.370.0
+  resolution: "@aws-sdk/middleware-endpoint@npm:3.370.0"
+  dependencies:
+    "@aws-sdk/middleware-serde": "npm:3.370.0"
+    "@aws-sdk/types": "npm:3.370.0"
+    "@aws-sdk/url-parser": "npm:3.370.0"
+    "@aws-sdk/util-middleware": "npm:3.370.0"
+    tslib: "npm:^2.5.0"
+  checksum: 10c0/41d8dcd0d41c36037360cc889f7277f6bab76513606f73ffc3b78292da591cce1fceab511f79fd83d979fdd3cb0696e2a71ffdb041301bba6107bb8cc551d3b6
+  languageName: node
+  linkType: hard
+
 "@aws-sdk/middleware-sdk-s3@npm:^3.972.79":
   version: 3.972.79
   resolution: "@aws-sdk/middleware-sdk-s3@npm:3.972.79"
@@ -679,6 +724,16 @@ __metadata:
     "@smithy/types": "npm:^4.19.0"
     tslib: "npm:^2.6.2"
   checksum: 10c0/bcf6a328c6039b5c09dc654b8dc3022e31164280feb76520e55e89a01c352b423901b7617134251cc29e6daa37c05e8b5ee030ad480491df6c679460a777ad20
+  languageName: node
+  linkType: hard
+
+"@aws-sdk/middleware-serde@npm:3.370.0":
+  version: 3.370.0
+  resolution: "@aws-sdk/middleware-serde@npm:3.370.0"
+  dependencies:
+    "@aws-sdk/types": "npm:3.370.0"
+    tslib: "npm:^2.5.0"
+  checksum: 10c0/d5188967343dd13118fd16dbf69b2be09ebbaf853be4f1a26ab2f060d7f32671bbfeadfccc627b86c8de7b617e967fc57efb36db8bcc74d7ff4609da9398cc4f
   languageName: node
   linkType: hard
 
@@ -695,6 +750,16 @@ __metadata:
     "@smithy/types": "npm:^4.19.0"
     tslib: "npm:^2.6.2"
   checksum: 10c0/61ec1e1c3eac42930052bdd1b315f10cde687fd43887b995b74a10d4cc6b60c06d6b2a22cf7f5102926a5473ed4b5a56a91677dc34ceb4777a09057d19391e48
+  languageName: node
+  linkType: hard
+
+"@aws-sdk/querystring-parser@npm:3.370.0":
+  version: 3.370.0
+  resolution: "@aws-sdk/querystring-parser@npm:3.370.0"
+  dependencies:
+    "@aws-sdk/types": "npm:3.370.0"
+    tslib: "npm:^2.5.0"
+  checksum: 10c0/a9f0c8df371990274ea258aac57f3295d06490f7ddf8cd4d8ad9c13d9611e754c14a7f1a3198a7d1d087a81363bf8a0fefef7503c2d0f6545d52a922a3962bf7
   languageName: node
   linkType: hard
 
@@ -758,6 +823,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aws-sdk/url-parser@npm:3.370.0":
+  version: 3.370.0
+  resolution: "@aws-sdk/url-parser@npm:3.370.0"
+  dependencies:
+    "@aws-sdk/querystring-parser": "npm:3.370.0"
+    "@aws-sdk/types": "npm:3.370.0"
+    tslib: "npm:^2.5.0"
+  checksum: 10c0/49d77e537eb47e44547dc5edc194a778ccae5ae0a66e4512de9a0d65a420dda8d80cedc373b1e857efdfe521c28c4439145875fe36042ffa94704ef130ee6e09
+  languageName: node
+  linkType: hard
+
 "@aws-sdk/util-arn-parser@npm:^3.310.0":
   version: 3.972.43
   resolution: "@aws-sdk/util-arn-parser@npm:3.972.43"
@@ -765,6 +841,15 @@ __metadata:
     "@aws-sdk/core": "npm:^3.978.3"
     tslib: "npm:^2.6.2"
   checksum: 10c0/057668bea8e0f468c2c66c52da063e3443ed00ed254a2a74346efaa3c0422058fd11769083d844b66a035e8440397b66c7b2d9dd988e5845127f0770d8ad9cf6
+  languageName: node
+  linkType: hard
+
+"@aws-sdk/util-middleware@npm:3.370.0":
+  version: 3.370.0
+  resolution: "@aws-sdk/util-middleware@npm:3.370.0"
+  dependencies:
+    tslib: "npm:^2.5.0"
+  checksum: 10c0/4119ba35dbc3c1afaa0f390efb18f5a543f0ac87be5c732b7037bc4e77ef85bc4e5316834ef565c8e76f84a8ac2134db8962f40368f3b0c0d51f4b4ed369e8e5
   languageName: node
   linkType: hard
 
@@ -2821,6 +2906,30 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 10c0/f98478e32e0c02d9383d33740399373d8c80221336c9f9558a4f9b8657fb7d3e9465abad5864c1b63da0e0b84e011aa91adec65d5d7d130a14bffc736eac4ed4
+  languageName: node
+  linkType: hard
+
+"@backstage/plugin-catalog-backend-module-aws@npm:^0.4.29":
+  version: 0.4.29
+  resolution: "@backstage/plugin-catalog-backend-module-aws@npm:0.4.29"
+  dependencies:
+    "@aws-sdk/client-eks": "npm:^3.350.0"
+    "@aws-sdk/client-organizations": "npm:^3.350.0"
+    "@aws-sdk/client-s3": "npm:^3.350.0"
+    "@aws-sdk/middleware-endpoint": "npm:^3.347.0"
+    "@aws-sdk/types": "npm:^3.347.0"
+    "@backstage/backend-defaults": "npm:^0.18.1"
+    "@backstage/backend-plugin-api": "npm:^1.11.0"
+    "@backstage/catalog-model": "npm:^1.10.2"
+    "@backstage/config": "npm:^1.3.10"
+    "@backstage/errors": "npm:^1.3.2"
+    "@backstage/integration": "npm:^2.1.3"
+    "@backstage/integration-aws-node": "npm:^0.2.3"
+    "@backstage/plugin-catalog-common": "npm:^1.2.1"
+    "@backstage/plugin-catalog-node": "npm:^2.2.6"
+    "@backstage/plugin-kubernetes-common": "npm:^0.9.14"
+    p-limit: "npm:^3.0.2"
+  checksum: 10c0/ee9b361dd0f0a1bcad3d2b35d84cb492799e634bafb6bbf592bbb2972642cf813c0d31463de3fc2348bde25a28cccf67d8d9ddf6331dcb655eff0a5aa5e3ca83
   languageName: node
   linkType: hard
 
@@ -14190,6 +14299,7 @@ __metadata:
     "@backstage/plugin-auth-backend-module-guest-provider": "npm:^0.2.24"
     "@backstage/plugin-auth-node": "npm:^0.7.7"
     "@backstage/plugin-catalog-backend": "npm:^4.0.1"
+    "@backstage/plugin-catalog-backend-module-aws": "npm:^0.4.29"
     "@backstage/plugin-catalog-backend-module-logs": "npm:^0.1.27"
     "@backstage/plugin-catalog-backend-module-scaffolder-entity-model": "npm:^0.2.25"
     "@backstage/plugin-kubernetes-backend": "npm:^0.21.12"
