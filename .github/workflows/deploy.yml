@@ -49,8 +49,8 @@ jobs:
           echo "IMAGE=$IMAGE" >> "$GITHUB_ENV"
           echo "Pushed $IMAGE"
 
-            - name: Show OIDC subject
-      - run: |
+      - name: Show OIDC subject
+        run: |
           python3 - <<'EOF'
           import os, json, base64, urllib.request
           url = os.environ["ACTIONS_ID_TOKEN_REQUEST_URL"] + "&audience=sts.amazonaws.com"
