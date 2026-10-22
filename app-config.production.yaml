@@ -30,7 +30,7 @@ techdocs:
   publisher:
     type: awsS3
     awsS3:
-      bucketName: YOUR-BUCKET-NAME
+      bucketName: my-backstage-docs
       region: us-east-1
 
 catalog:
@@ -40,7 +40,7 @@ catalog:
   providers:
     awsS3:
       docsEntities:
-        bucketName: YOUR-BUCKET-NAME
+        bucketName: my-backstage-docs
         prefix: catalog/
         region: us-east-1
         schedule:
