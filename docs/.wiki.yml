@@ -1,5 +1,5 @@
 sidebar:
-  # A bare path: a page. Its title comes from front matter, the first heading or the file name.
+  # A bare path: a page. Its title comes from the first heading.
   - index.md
   # label and page: a page with the title that you give.
   - label: Getting Started
@@ -9,7 +9,7 @@ sidebar:
     items:
       - guides/install.md
       - guides/configure.md
-  # autogenerate: a group with the tree of a folder, made as described above.
+  # autogenerate: a group with the tree of a folder.
   - label: Reference
     autogenerate:
       directory: reference
