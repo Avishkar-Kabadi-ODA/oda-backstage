@@ -1,0 +1,20 @@
+sidebar:
+  # A bare path: a page. Its title comes from front matter, the first heading or the file name.
+  - index.md
+  # label and page: a page with the title that you give.
+  - label: Getting Started
+    page: getting-started.md
+  # label and items: a group with the entries that you list.
+  - label: Guides
+    items:
+      - guides/install.md
+      - guides/configure.md
+  # autogenerate: a group with the tree of a folder, made as described above.
+  - label: Reference
+    autogenerate:
+      directory: reference
+  # slug: the URL part of a group, in place of its label.
+  - label: Tutorial (Build an App)
+    slug: tutorial
+    items:
+      - tutorial/first-steps.md
